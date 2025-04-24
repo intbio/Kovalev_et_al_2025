@@ -1,0 +1,236 @@
+Name,Effector type,Action,Effector construct,dCas protein,Architecture,Organism,References,DOI link
+,noncatalytic,activation,VP16,SpdCas9,Direct fusion (С),Human,"Michael Agne, et al. Modularized CRISPR/dCas9 Effector Toolkit for Target-Specific Gene Regulation (2024)",https://doi.org/10.1021/sb500035y
+,noncatalytic,activation,VP48,SpdCas9,Direct fusion (С),Human,"Albert W Cheng, et al. Multiplexed activation of endogenous genes by CRISPR-on, an RNA-guided transcriptional activator system (2013)",https://doi.org/10.1038/cr.2013.122
+,noncatalytic,activation,VP64,SpdCas9,"Direct fusion C, direct fusion N, N and C fusion","Human, Animal, Plant","1. Levi G. Lowder, et al. A CRISPR/Cas9 Toolbox for Multiplexed Plant Genome Editing and Transcriptional Regulation (2015); 
+2. Nianan Luo, et al. Hepatic stellate cell reprogramming via exosome-mediated CRISPR/dCas9-VP64 delivery (2021);
+3. Luke A Gilbert, et al. CRISPR-mediated modular RNA-guided regulation of transcription in eukaryotes (2013); 
+4. Fahim Farzadfard, et al. Tunable and multifunctional eukaryotic transcription factors based on CRISPR/Cas (2013);
+5. Morgan L Maeder, et al. CRISPR RNA–guided activation of endogenous human genes (2013); 
+6. Bernd Zetsche, et al. A split-Cas9 architecture for inducible genome editing and transcription modulation (2015) 
+7. Marta Vazquez-Vilar, et al. A modular toolbox for gRNA–Cas9 genome engineering in plants based on the GoldenBraid standard. (2016)                                                                                                                                        ","https://doi.org/10.1104/pp.15.00636;
+https://doi.org/10.1080/10717544.2020.1850917;
+https://doi.org/10.1016/j.cell.2013.06.044;
+https://doi.org/10.1021/sb400081r;
+https://doi.org/10.1038/nmeth.2598;
+https://doi.org/10.1038/nbt.3149;
+https://doi.org/10.1186/s13007-016-0101-2"
+,noncatalytic,activation,VP64,SadCas9,Direct fusion (С),"Human, Animal","Cia-Hin Lau, et al. Targeted Transgene Activation in the Brain Tissue by Systemic Delivery of Engineered AAV1 Expressing CRISPRa (2019)",https://doi.org/10.1016/j.omtn.2019.04.015
+,noncatalytic,activation,VP64,enAsdCas12,Direct fusion (С),Yeast,"1. Audrey L Griffith, et al. Optimization of Cas12a for multiplexed genome-scale transcriptional activation. (2023);
+2. Lifang Yu, et al. Saccharomyces cerevisiae Synthetic Transcriptional Networks Harnessing dCas12a and Type V-A anti-CRISPR Proteins. (2021)","https://doi.org/10.1016/j.xgen.2023.100387; 
+https://doi.org/10.1021/acssynbio.1c00006"
+,noncatalytic,activation,VP64,LbdCas12a ,Direct fusion (С),Yeast,"Lifang Yu, et al. Saccharomyces cerevisiae Synthetic Transcriptional Networks Harnessing dCas12a and Type V-A anti-CRISPR Proteins. (2021)",https://doi.org/10.1021/acssynbio.1c00006
+,noncatalytic,"activation, no effect",VP64,MbdCas12a ,Direct fusion (С),Yeast,"Lifang Yu, et al. Saccharomyces cerevisiae Synthetic Transcriptional Networks Harnessing dCas12a and Type V-A anti-CRISPR Proteins. (2021)",https://doi.org/10.1021/acssynbio.1c00006
+,noncatalytic,activation,VP64,dCas12f (dCas14),Direct fusion (С),Human,"Do Yon Kim, et al. Efficient CRISPR editing with a hypercompact Cas12f1 and engineered guide RNAs delivered by adeno-associated virus. (2021)",https://doi.org/10.1038/s41587-021-01009-z
+,noncatalytic,activation,VP64,FndCas12a,Direct fusion (С),Yeast,"Chunyu Liao, et al. Modular one-pot assembly of CRISPR arrays enables library generation and reveals factors influencing crRNA biogenesis. (2019)",https://doi.org/10.1038/s41467-019-10747-3
+,"mixed 
+(catalytic \ non-catalytic)",activation,VP64-p300,SpdCas9,"Direct fusion VP64 (N), direct fusion p300 (C)",Human,"Kohei Omachi, Comparative analysis of dCas9-VP64 variants and multiplexed guide RNAs mediating CRISPR activation. (2022)",https://doi.org/10.1371/journal.pone.0270008
+,"mixed 
+(catalytic \ non-catalytic)",activation,VP64-p300 + VP64,SpdCas9,"Direct fusion VP64 (N), direct fusion p300 (C) + peptide-scFV binding",Human,"Kohei Omachi, Comparative analysis of dCas9-VP64 variants and multiplexed guide RNAs mediating CRISPR activation. (2022)",https://doi.org/10.1371/journal.pone.0270008
+,noncatalytic,activation,VP160,SadCas9,Direct fusion (С),Human,"Cia-Hin Lau, et al. Targeted Transgene Activation in the Brain Tissue by Systemic Delivery of Engineered AAV1 Expressing CRISPRa (2019); 
+Albert W Cheng, et al. Multiplexed activation of endogenous genes by CRISPR-on, an RNA-guided transcriptional activator system (2013)",https://doi.org/10.1038/cr.2013.122
+,noncatalytic,activation,VP160,SpdCas9,Direct fusion (С),Human,"Giménez, C., Ielpi, M., Mutto, A. et al. CRISPR-on system for the activation of the endogenous human INS gene. (2016)",https://doi.org/10.1038/gt.2016.28
+,noncatalytic,activation,VP192,SpdCas9,Direct fusion (С),Human,"Diego Balboa, et al. Conditionally Stabilized dCas9 Activator for Controlling Gene Expression in Human Cell Reprogramming and Differentiation (2015)",https://doi.org/10.1016/j.stemcr.2015.08.001
+,noncatalytic,activation,p65,SpdCas9,Direct fusion (С),Human,"Luke A Gilbert, et al. CRISPR-mediated modular RNA-guided regulation of transcription in eukaryotes (2013)",https://doi.org/10.1016/j.cell.2013.06.044
+SPH,noncatalytic,activation,scFv-p65-HSF1,SpdCas9,GCN4 peptide (Direct fision (C))-scFV binding,Human,"Kohei Omachi, Comparative analysis of dCas9-VP64 variants and multiplexed guide RNAs mediating CRISPR activation. (2022)",https://doi.org/10.1371/journal.pone.0270008
+,noncatalytic,activation,vCD,SpdCas9,"Direct fusion (N,С)","Human, Animal","Giovanni A. Carosso, et al. Discovery of hypercompact epigenetic modulators for persistent CRISPR-mediated gene activation. (2024)",https://doi.org/10.1101/2023.06.02.543492
+,noncatalytic,activation,vCD-VP16,SpdCas9,"Direct fusion (N,С)","Human, Animal","Giovanni A. Carosso, et al. Discovery of hypercompact epigenetic modulators for persistent CRISPR-mediated gene activation. (2024)",https://doi.org/10.1101/2023.06.02.543492
+,noncatalytic,activation,vCD-VP28,SpdCas9,"Direct fusion (N,С)","Human, Animal","Giovanni A. Carosso, et al. Discovery of hypercompact epigenetic modulators for persistent CRISPR-mediated gene activation. (2024)",https://doi.org/10.1101/2023.06.02.543492
+,noncatalytic,activation,MCP-p65-HSF1,SpdCas9,gRNA-aptamer binding (MS2-based),Human,"Silvana Konermann, et al. Genome-scale transcriptional activation by an engineered CRISPR-Cas9 complex. (2014)",https://doi.org/10.1038/nature14136
+,noncatalytic,activation,p65-HSF1,Split LbdCas12a,Direct fusion (N+С),"Human, Animal","Nguyen, Nuong Thi Kieu, et al. Split dCas12a activator for lncRNA H19 activation to enhance BMSC differentiation and promote calvarial bone healing. (2023)",10.1016/j.biomaterials.2023.122106
+SAM,noncatalytic,activation,VP64 + MCP-p65-HSF1,SpdCas9,Direct fusion VP64 (С) + gRNA-aptamer binding (MS2-based),"Human, Animal, Plant","1. Silvana Konermann, et al. Genome-scale transcriptional activation by an engineered CRISPR-Cas9 complex. (2014);
+2. Charleen Hunt, et al. Tissue-specific activation of gene expression by the Synergistic Activation Mediator (SAM) CRISPRa system in mice. (2021);
+3. Yexuan Deng, et al. Generation of a CRISPR activation mouse that enables modelling of aggressive lymphoma and interrogation of venetoclax resistance. (2022)
+4. Jong-Jin Park, et al. RNA-guided transcriptional activation via CRISPR/dCas9 mimics overexpression phenotypes in Arabidopsis. (2017)","https://doi.org/10.1038/nature14136; 
+https://doi.org/10.1038/s41467-021-22932-4; 
+https://doi.org/10.1038/s41467-022-32485-9;
+https://doi.org/10.1371/journal.pone.0179410
+"
+VPR,noncatalytic,activation,VP64-p65-Rta,SpdCas9,Direct fusion (С),"Human, Plant, Animal","Alejandro Chavez, et al. Highly efficient Cas9-mediated transcriptional programming (2015)",https://doi.org/10.1038/nmeth.3312
+VPR,noncatalytic,activation,VP64-p65-Rta,St1dCas9,Direct fusion (С),"Human, Animal","Vora, S., Cheng, J., Xiao, R., Rational design of a compact CRISPR-Cas9 activator for AAV-mediated delivery (2018)",https://doi.org/10.1101/298620
+VPR,noncatalytic,activation,VP64-p65-Rta,SadCas9,Direct fusion (С),"Human, Animal","Bester AC, Lee JD, Chavez A, et al. An Integrated Genome-wide CRISPRa Approach to Functionalize lncRNAs in Drug Resistance. (2018)",https://doi.org/10.1016/j.cell.2018.03.052
+VPR,noncatalytic,activation,VP64-p65-Rta,CjdCas9,Direct fusion (С),"Human, Animal","Xin Zhang, Sihan Lv, Zhenhuan Luo, et al. a CRISPR/Cas9-based compact and potent transcriptional activator, elicits gene expression in vivo. (2021)",https://doi.org/10.1093/nar/gkab174
+VPR,noncatalytic,activation,VP64-p65-Rta,enAsdCas12a ,Direct fusion (С),"Human, Animal","Kleinstiver, B.P., Sousa, A.A., Walton, R.T. et al. Engineered CRISPR–Cas12a variants with increased activities and improved targeting ranges for gene, epigenetic and base editing. (2019)",https://doi.org/10.1038/s41587-018-0011-0
+VPR,noncatalytic,activation,VP64-p65-Rta,AsdCas12a,Direct fusion (С),"Human, Animal","Kleinstiver, B.P., Sousa, A.A., Walton, R.T. et al. Engineered CRISPR–Cas12a variants with increased activities and improved targeting ranges for gene, epigenetic and base editing. (2019)",https://doi.org/10.1038/s41587-018-0011-0
+VPR,noncatalytic,activation,VP64-p65-Rta,LbdCas12a,Direct fusion (С),"Human, Animal","Kleinstiver, B.P., Sousa, A.A., Walton, R.T. et al. Engineered CRISPR–Cas12a variants with increased activities and improved targeting ranges for gene, epigenetic and base editing. (2019)",https://doi.org/10.1038/s41587-018-0011-0
+VPR,noncatalytic,activation,VP64-p65-Rta,FndCas12a,Direct fusion (С),"Human, Animal","James W Bryson, Jamie Y Auxillos, Susan J Rosser. Multiplexed activation in mammalian cells using a split-intein CRISPR/Cas12a based synthetic transcription factor. (2022)",https://doi.org/10.1093/nar/gkab1191
+VPR,noncatalytic,activation,VP64-p65-Rta,DpbdCas12e,Direct fusion (С),"Human, Animal","Escobar M, Li J, Patel A, Liu S, Xu Q, Hilton IB. Quantification of Genome Editing and Transcriptional Control Capabilities Reveals Hierarchies among Diverse CRISPR/Cas Systems in Human Cells. (2022)",https://doi.org/10.1021/acssynbio.2c00156
+VPR,noncatalytic,activation,VP64-p65-Rta,PlmdCas12e,Direct fusion (С),"Human, Animal","Escobar M, Li J, Patel A, Liu S, Xu Q, Hilton IB. Quantification of Genome Editing and Transcriptional Control Capabilities Reveals Hierarchies among Diverse CRISPR/Cas Systems in Human Cells. (2022)",https://doi.org/10.1021/acssynbio.2c00156
+VPR,noncatalytic,activation,VP64-p65-Rta,dCas12j2,Direct fusion (С),"Human, Animal","Escobar M, Li J, Patel A, Liu S, Xu Q, Hilton IB. Quantification of Genome Editing and Transcriptional Control Capabilities Reveals Hierarchies among Diverse CRISPR/Cas Systems in Human Cells. (2022)",https://doi.org/10.1021/acssynbio.2c00156
+VPR,noncatalytic,activation,VP64-p65-Rta,dCas12j3,Direct fusion (С),"Human, Animal","Luo Z, Pan F, Zhu Y, Du S, Yan Y, Wang R, Li S, Xu H. Synergistic Improvement of 5-Aminolevulinic Acid Production with Synthetic Scaffolds and System Pathway Engineering. (2022)",https://doi.org/10.1021/acssynbio.2c00157
+VPR,noncatalytic,activation,VP64-p65-Rta,dCas-MINI,Direct fusion (С),"Human, Animal","Wu, R., Li, P., Xiao, P. et al. Activation of endogenous full-length utrophin by MyoAAV-UA as a therapeutic approach for Duchenne muscular dystrophy. (2025)",https://doi.org/10.1038/s41467-025-57831-5
+miniVPR,noncatalytic,activation,VP64-p65 (100-261)-Rta(125-190),SadCas9,Direct fusion (С),Human,"Suhani Vora, et al. Rational design of a compact CRISPR-Cas9 activator for AAV-mediated delivery (2018)",https://doi.org/10.1101/298620
+miniVPR,noncatalytic,activation,VP64-p65 (100-261)-Rta(125-190),LbdCas12a,Direct fusion (С),Human,"Jens P Magnusson, et al. Enhanced Cas12a multi-gene regulation using a CRISPR array separator. (2021)",https://doi.org/10.7554/elife.66406
+miniVPR,noncatalytic,activation,VP64-p65 (100-261)-Rta(125-190),dCas-MINI ,Direct fusion (С),"Human, Animal","Qing Wang et al. ,dCasMINI-mediated therapy rescues photoreceptors degeneration in a mouse model of retinitis pigmentosa. (2024)",https://doi.org/10.1126/sciadv.adn7540
+VPRP,"mixed 
+(catalytic \ non-catalytic)","Histone acetylation (activation)
+H3K27",VPR-p300,SpdCas9,Direct fusion (С),Human,"Antonia A. Dominguez, et al. CRISPR-Mediated Synergistic Epigenetic and Transcriptional Control. (2022)",https://doi.org/10.1089/crispr.2021.0099
+VPRF,noncatalytic,activation,VPR-FUS IDR,dCas9,"Direct fusion (С),
+Direct fusion (N)",Human,"Jiaqi Liu, et al. CRISPR-assisted transcription activation by phase-separation proteins. (2023)",https://doi.org/10.1093/procel/pwad013
+VPRN,noncatalytic,activation,VPR-NUP98N,dCas9,"Direct fusion (С),
+Direct fusion (N)",Human,"Jiaqi Liu, et al. CRISPR-assisted transcription activation by phase-separation proteins. (2023)",https://doi.org/10.1093/procel/pwad013
+Calabrese,noncatalytic,activation,"VP64+ PCP-p65-HSF1
+",SpdCas9,"Direct fusion (C) of VP64, gRNA-aptamer binding (PP7-based)",Human,"Kendall R. Sanson, et al. Optimized libraries for CRISPR-Cas9 genetic screens with multiple modalities. (2018)",https://doi.org/10.1038/s41467-018-07901-8
+SSSavi,"mixed 
+(catalytic \ non-catalytic)",activation/repression,"Spy-Snoop-Sunx5-AviTag + SpyCatcher-Effector, SnoopCatcherr-Effector, α-GCN4r-Effector, Traptavidinr-Effector",SpdCas9,Direct fusion tag (С) + protein-proein interaction,Human,"Tessa Swain, et al. A modular dCas9-based recruitment platform for combinatorial epigenome editing. (2024)",https://doi.org/10.1093/nar/gkad1108
+SunTag,"mixed 
+(catalytic \ non-catalytic)",activation/repression,"scFv-Effector (VP64, DNMT3A1, ","SpdCas9, SadCas9","Direct fusion GCN4 (C), scFV-GCN4 binding",,"Marvin E. Tanenbaum , et al. A protein-tagging system for signal amplification in gene expression and fluorescence imaging.  (2014)",https://doi.org/10.1016/j.cell.2014.09.039
+,noncatalytic,repression,SID4X,SpdCas9,Direct fusion (С),"Aminal, human","Vanessa Chong-Morrison, et al. Ac/Ds transposition for CRISPR/dCas9-SID4x epigenome modulation in zebrafish. (2023)",https://doi.org/10.1242/bio.059995
+,noncatalytic,repression,SID4X+KRAB,SpdCas9,Direct fusion (N) + (C),Human,"Carleton JB, Berrett KC, Gertz J. Multiplex Enhancer Interference Reveals Collaborative Control of Gene Regulation by Estrogen Receptor α-Bound Enhancers. (2017)",https://doi.org/10.1016/j.cels.2017.08.011
+,noncatalytic,repression,Mix1,SpdCas9,Direct fusion (С),Yeast,"1. Miles W. Gander, et al.  Digital logic circuits in yeast with CRISPR-dCas9 NOR gates. (2017);
+2. Luis A Muñoz-Miranda, et al. CRISPRi-induced transcriptional regulation of IAH1 gene and its influence on volatile compounds profile in Kluyveromyces marxianus DU3. (2024)","https://doi.org/10.1038/ncomms15459;
+https://doi.org/10.1007/s11274-023-03811-0"
+,noncatalytic,repression,Mix1,FndCas12a,Direct fusion (С),Yeast,"Haotian Zhai, et al. CRISPR-mediated protein-tagging signal amplification systems for efficient transcriptional activation and repression in Saccharomyces cerevisiae. (2022)",https://doi.org/10.1093/nar/gkac463
+,noncatalytic,repression,TUP1,SpdCas9,Direct fusion (С),Yeast,"Haotian Zhai, et al. CRISPR-mediated protein-tagging signal amplification systems for efficient transcriptional activation and repression in Saccharomyces cerevisiae. (2022)",https://doi.org/10.1093/nar/gkac464
+,noncatalytic,repression,TUP1,FndCas12a,Direct fusion (С),Yeast,"Haotian Zhai, et al. CRISPR-mediated protein-tagging signal amplification systems for efficient transcriptional activation and repression in Saccharomyces cerevisiae. (2022)",https://doi.org/10.1093/nar/gkac465
+,noncatalytic,repression,MIG1,SpdCas9,Direct fusion (С),Yeast,"Haotian Zhai, et al. CRISPR-mediated protein-tagging signal amplification systems for efficient transcriptional activation and repression in Saccharomyces cerevisiae. (2022)",https://doi.org/10.1093/nar/gkac466
+,noncatalytic,repression,MIG1,FndCas12a,Direct fusion (С),Yeast,"Haotian Zhai, et al. CRISPR-mediated protein-tagging signal amplification systems for efficient transcriptional activation and repression in Saccharomyces cerevisiae. (2022)",https://doi.org/10.1093/nar/gkac467
+,catalytic,"Activation (DNA
+demetilation)",TET1,SpdCas9,Direct fusion (С),"Human, Plant, Animal","X. Shawn Liu, et al. Editing DNA Methylation in the Mammalian Genome. (2016)",https://doi.org/10.1016/j.cell.2016.08.056
+,catalytic,"Activation (DNA
+demetilation)",PUFa-TET1,SpdCas9,"Direct fusion PBSa (С), PBSa-PUFa-binding",Human,"Aziz Taghbalout, et al. Enhanced CRISPR-based DNA demethylation by Casilio-ME-mediated RNA-guided coupling of methylcytosine oxidation and DNA repair pathways (2019)",https://doi.org/10.1038/s41467-019-12339-7
+,catalytic,Activation (DNA cytosine demethylation),PUFa-NEIL2-TET1,SpdCas9,"Direct fusion PBSa (С), PBSa-PUFa-binding",Human,"Aziz Taghbalout, et al. Enhanced CRISPR-based DNA demethylation by Casilio-ME-mediated RNA-guided coupling of methylcytosine oxidation and DNA repair pathways (2019)",https://doi.org/10.1038/s41467-019-12339-7
+,catalytic,"Activation (DNA
+demetilation)",scFv-TET1,SpdCas9,"Direct fusion GCN4 (C), scFV-GCN4 binding",Human,"Aziz Taghbalout, et al. Enhanced CRISPR-based DNA demethylation by Casilio-ME-mediated RNA-guided coupling of methylcytosine oxidation and DNA repair pathways (2019)",https://doi.org/10.1038/s41467-019-12339-7
+,catalytic,"Activation (DNA
+demetilation)",TET1+Split MCP-TET1,SpdCas9,"Direct fusion TET1 (C), gRNA-aptamer binding (MS2-based)",Human,"Aziz Taghbalout, et al. Enhanced CRISPR-based DNA demethylation by Casilio-ME-mediated RNA-guided coupling of methylcytosine oxidation and DNA repair pathways (2019)",https://doi.org/10.1038/s41467-019-12339-7
+,catalytic,"Activation (DNA
+demetilation)",TET2,dCasRx (dCas13),fusion,,"Tao Zhang, et al. Programmable RNA 5-methylcytosine (m5C) modification of cellular RNAs by dCasRx conjugated methyltransferase and demethylase. (2024)",https://doi.org/10.1093/nar/gkae110
+,catalytic,"Activation (DNA
+demetilation)",TET3,SpdCas9,Direct fusion (С),"Aminal, human","Xingbo Xu, et al. High-fidelity CRISPR/Cas9- based gene-specific hydroxymethylation rescues gene expression and attenuates renal fibrosis. (2018)",https://doi.org/10.1038/s41467-018-05766-5
+,catalytic,Activation (DNA cytosine demethylation),scFv-TET1 + scFv-VP64,dHFCas9,SunTag ,Human,Sumiyo Morita. et al. Synergistic Upregulation of Target Genes by TET1 and VP64 in the dCas9–SunTag Platform. (2020),https://doi.org/10.3390/ijms21051574
+,catalytic,Activation (DNA cytosine demethylation),PUFa-TET1 + PUFc-GADD45A,SpdCas9,"Direct fusion PBSa-PBSc (С), PBSa-PUFa and PBSc-PUFc binding",Human,"Aziz Taghbalout, et al. Enhanced CRISPR-based DNA demethylation by Casilio-ME-mediated RNA-guided coupling of methylcytosine oxidation and DNA repair pathways (2019)",https://doi.org/10.1038/s41467-019-12339-7
+,catalytic,Activation (DNA cytosine demethylation),GBP-ROS1,SpdCas9,Direct fusion (С),"Human, Plant"," Parrilla-Doblas JT, Ariza RR, Roldán-Arjona T. Targeted DNA demethylation in human cells by fusion of a plant 5-methylcytosine DNA glycosylase to a sequence-specific DNA binding domain. (2017)
+","https://doi.org/10.1080/15592294.2017.1294306;
+"
+,catalytic,Activation (DNA cytosine demethylation),ROS1,SpdCas9,Direct fusion (С),"Human, Plant"," Devesa-Guerra I, Morales-Ruiz T et al. DNA Methylation Editing by CRISPR-guided Excision of 5-Methylcytosine. (2020)",https://doi.org/10.1016/j.jmb.2020.02.007
+,catalytic,DNA cytosine demethylation,TDG,ZFP,,,"David J Gregory, et al. Specific transcriptional enhancement of inducible nitric oxide synthase by targeted promoter demethylation. (2013)",https://doi.org/10.4161/epi.26267
+,catalytic,Repression (DNA cytosine methylation) ,DNMT1,SpdCas9,Direct fusion (С),"Human, Animal","Lin Lin, et al. Genome-wide determination of on-target and off-target characteristics for RNA-guided DNA methylation by dCas9 methyltransferases. (2018)",https://doi.org/10.1093/gigascience/giy011
+CRISPR/dCas9-R2-loop,inhibits catalytic activity,Repression (DNA cytosine methylation) ,R2-RNA-loop,SpdCas9,R2-loop,Human,"Anrui Lu, et al. Reprogrammable CRISPR/dCas9-based recruitment of DNMT1 for site-specific DNA demethylation and gene regulation. (2019)",https://doi.org/10.1038/s41421-019-0090-1
+,catalytic,Repression (DNA cytosine methylation) ,DNMT3A,SpdCas9,SunTag,"Human, Animal","Kojima S, Shiochi N, et al. Epigenome editing reveals core DNA methylation for imprinting control in the Dlk1-Dio3 imprinted domain. (2022)",https://doi.org/10.1093/nar/gkac344
+,catalytic,Repression (DNA cytosine methylation) ,DNMT3A,SpdCas9,Direct fusion (С)/ Direct fusion (N)/ Direct fusion (N+С),Human,"1. Lin Lin, et al. Genome-wide determination of on-target and off-target characteristics for RNA-guided DNA methylation by dCas9 methyltransferases. (2018);
+2. Peter Stepper, et al. Efficient targeted DNA methylation with chimeric dCas9–Dnmt3a–Dnmt3L methyltransferase. (2016)","https://doi.org/10.1093/gigascience/giy011;
+https://doi.org/10.1093/nar/gkw1112"
+,catalytic,Repression (DNA cytosine methylation) ,DNMT3A,AsdCas12a,Direct fusion (С)/ Direct fusion (N)/ Direct fusion (N+С),Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic,Repression (DNA cytosine methylation) ,DNMT3B,SpdCas9,Direct fusion (С),Human,"Lin Lin, et al. Genome-wide determination of on-target and off-target characteristics for RNA-guided DNA methylation by dCas9 methyltransferases. (2018)",https://doi.org/10.1093/gigascience/giy011
+,catalytic,Repression (DNA cytosine methylation) ,DNMT3A + DNMT3L,SpdCas9,Direct fusion (С),Human,"Peter Stepper, et al. Efficient targeted DNA methylation with chimeric dCas9–Dnmt3a–Dnmt3L methyltransferase. (2016)",https://doi.org/10.1093/nar/gkw1112
+CRISRPoff,"mixed 
+(catalytic \ non-catalytic)",Repression (DNA cytosine methylation),KRAB + DNMT3A + DNMT3L,SpdCas9,Direct fusion (С),"Human, Animal","James K Nuñez, et al. Genome-wide programmable transcriptional memory by CRISPR-based epigenome editing. (2021)",https://doi.org/10.1016/j.cell.2021.03.025
+,catalytic,Repression (DNA methylation) ,MQ1,SpdCas9,Direct fusion (С),"Human, Animal","Yong Lei, et al. Targeted DNA methylation in vivo using an engineered dCas9-MQ1 fusion protein. (2017)
+",https://doi.org/10.1038/ncomms16026
+,catalytic,Repression (DNA methylation) ,M. HpaII,SpdCas9,Direct fusion (С),Human,"Xiong, T., Meister, G.E., Workman, R.E. et al. Targeted DNA methylation in human cells using engineered dCas9-methyltransferases. (2017)",https://doi.org/10.1038/s41598-017-06757-0
+,catalytic,Activation (Histone metilation Н3К4),PRDM9,SpdCas9,Direct fusion (С),Human,"David Cano-Rodriguez, et al. Writing of H3K4Me3 overcomes epigenetic silencing in a sustained but context-dependent manner. (2016)",https://doi.org/10.1038/ncomms12284
+,catalytic,"Histone acetylation
+H3K27",p300,SpdCas9,Direct fusion (С),"Human, Plant","1. Isaac B Hilton, et al. Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers. (2015);
+2. Sara Selma. Crisp and quiet: A novel programmable transcriptional repressor in plants. (2024)","https://doi.org/10.1038/nbt.3199;
+https://doi.org/10.1093/plphys/kiae211"
+,catalytic,"Histone acetylation
+H3K27",p300,SadCas9,Direct fusion (С),Human,"1. Isaac B Hilton, et al. Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers. (2015); 
+2. Sara Selma, et al. Crisp and quiet: A novel programmable transcriptional repressor in plants. (2024)",https://doi.org/10.1038/nbt.3199
+,catalytic,"Histone acetylation
+H3K27",p300 I1417N,SpdCas9,Direct fusion (С),Human,"Goell J, Li J, Mahata B, et al. Tailoring a CRISPR/Cas-based Epigenome Editor for Programmable Chromatin Acylation and Decreased Cytotoxicity. (2024)",https://doi.org/ 10.1101/2024.09.22.611000
+,catalytic,Histone metilation Н3К79,DOT1L,SpdCas9,Direct fusion (С),Human,"Cano-Rodriguez, D., Gjaltema, R., Jilderda, L. et al. Writing of H3K4Me3 overcomes epigenetic silencing in a sustained but context-dependent manner. (2016)",https://doi.org/10.1038/ncomms12284
+,catalytic,Histone metilation Н3К4 ,SMYD3,SpdCas9,Direct fusion (С),Human,"Xiaoshu Xu, et al. A CRISPR–dCas Toolbox for Genetic Engineering and Synthetic Biology. (2019)",https://doi.org/10.1016/j.jmb.2018.06.037
+,catalytic,Histone lysine acetylation (activation),GCN5,SpdCas9,Direct fusion (С),Animal,"Bo Xiao, et al. Epigenetic editing by CRISPR/dCas9 in Plasmodium falciparum. (2018)",https://doi.org/10.1073/pnas.1813542116
+,catalytic,Histone metilation Н3К4 ,MLL3/4,SpdCas9,Direct fusion (С),Animal,"Jian Yan, et al. Histone H3 lysine 4 monomethylation modulates long-range chromatin interactions at enhancers. (2018)",https://doi.org/10.1038/cr.2018.1
+,catalytic,"Histone 
+Ser/Thr 
+phosphorylation",dMSK1,SpdCas9,Direct fusion (С),Human,"Jing Li, et al. Programmable human histone phosphorylation and gene activation using a CRISPR/Cas9-based chromatin kinase. (2021)",https://doi.org/10.1038/s41467-021-21188-2
+,catalytic,"Histone 
+Ser/Thr 
+phosphorylation",MSK1,SpdCas9,Direct fusion (С),Human,"Jing Li, et al. Programmable human histone phosphorylation and gene activation using a CRISPR/Cas9-based chromatin kinase. (2021)",https://doi.org/10.1038/s41467-021-21188-2
+,catalytic,Histone lysine acetylation (activation),CPBHAT,SpdCas9,"Direct fusion (С), PUFa-fusion (N,C)",Human,"Albert W Cheng, et al. Casilio: a versatile CRISPR-Cas9-Pumilio hybrid for gene regulation and genomic labeling. (2016)",https://doi.org/10.1038/cr.2016.3
+,catalytic,ARG citrullination,PPAD,SpdCas9,Direct fusion (N),"Human, Animal","Xiaoya Zhang, et al.""A programmable CRISPR/dCas9-based epigenetic editing system enabling loci-targeted histone citrullination and precise transcription regulation"". (2024)",https://doi.org/10.1016/j.jgg.2024.05.010
+,noncatalytic,repression histone modifications,KRAB,SpdCas9,"Direct fusion (N), Direct fusion (C)","Human, Animal, Plant","1. Luke A. Gilbert, et al. CRISPR-Mediated Modular RNA-Guided Regulation of Transcription in Eukaryotes. (2013)
+2. Alok A, Chauhan H, Rout B, Pandey A, Singh K. CRISPR/dCas9-KRAB mediated transcriptional suppression of NtbHLH47 enhances tolerance to iron stress and modulates iron content in tobacco. (2025)","https://doi.org/10.1016%2Fj.cell.2013.06.044;
+https://doi.org/10.1016/j.plantsci.2025.112449"
+,noncatalytic,repression histone modifications,KRAB,SadCas9,Direct fusion (С),"Human, Animal","Thakore, P.I., Kwon, J.B., Nelson, C.E. et al. RNA-guided transcriptional silencing in vivo with S. aureus CRISPR-Cas9 repressors. (2017)",https://doi.org/10.1038/s41467-018-04048-4
+,No effect,repression histone modifications,KRAB,AsdCas12a,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Peter Stepper, et al. Efficient targeted DNA methylation with chimeric dCas9–Dnmt3a–Dnmt3L methyltransferase. (2016)",https://doi.org/10.1093/nar/gkw1112
+,noncatalytic ,repression histone modifications,KRAB+ MECP2,SpdCas9,Direct fusion (С),"Human, Animal","Nan Cher Yeo, et al. An enhanced CRISPR repressor for targeted mammalian gene regulation. (2018)",https://doi.org/10.1038/s41592-018-0048-5.
+,catalytic,Histone metilation H3K9,G9A,SpdCas9,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic (no effect in study),Histone metilation H3K9,G9A,AsdCas12a,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic,histone metilation Н3К27 (repression),EZH2 (FL),SpdCas9,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic (no effect in study),histone metilation Н3К27 (repression),EZH2 (FL),AsdCas12a,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,noncatalytic,histone metilation Н3К27 (repression),EZH2 (SET),SpdCas9,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic,"Increase in H3K9 trimethylation
+(Gene repression)",SUV39H1,SpdCas9,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic (no effect in study),"Increase in H3K9 trimethylation
+(Gene repression)",SUV39H1,AsdCas12a,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic,"Increase in H3K9 trimethylation
+(Gene repression)",HP1,,,,"Henriette O’Geen, et al. Ezh2-dCas9 and KRAB-dCas9 enable engineering of epigenetic memory in a context-dependent manner. (2019)",https://doi.org/10.1093/nar/gkx578
+,noncatalytic,histone metilation Н3К27 (repression),FOG1,SpdCas9,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,noncatalytic (no effect in study),histone metilation Н3К27 (repression),FOG1,AsdCas12a,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic,"Histone lysine merilation (repression)
+H4K20me3",scFv-KMT5C,SpdCas9,scFv-KMT5C-GCN4 binding (SunTag),Animal,"Policarpi, C., Munafò, M., Tsagkris, S. et al. Systematic epigenome editing captures the context-dependent instructive function of chromatin modifications. (2024)","https://doi.org/10.1038/s41588-024-01706-w.
+"
+,catalytic,"Histone lysine demethylation
+Removal of H3K4me2
+(Gene repression)",LSD1,NmdCas9,Direct fusion (С),Animal,"Kearns, N., Pham, H., Tabak, B. et al. Functional annotation of native enhancers with a Cas9–histone demethylase fusion. (2015)",https://doi.org/10.1038/nmeth.3325
+,catalytic,"Histone lysine demethylation
+Removal of H3K4me2
+(Gene repression)",LSD1,SpdCas9,Direct fusion (N),Human,"Li, K., Liu, Y., Cao, H. et al. Interrogation of enhancer function by enhancer-targeting CRISPR epigenetic editing. (2019)","https://doi.org/10.1038/s41467-020-14362-5
+
+"
+,catalytic,H3K27 deacetylation,HDAC3,SpdCas9,Direct fusion (С),Animal,"Kwon, D., Zhao, YT., Lamonica, J. et al. Locus-specific histone deacetylation using a synthetic CRISPR-Cas9-based HDAC. (2017)",https://doi.org/10.1038/ncomms15315.
+,catalytic,H3K27 deacetylation,HDAC8,SpdCas9,Direct fusion (С),Animal,"Chen LF, Lin YT, et al. Enhancer Histone Acetylation Modulates Transcriptional Bursting Dynamics of Neuronal Activity-Inducible Genes. (2019)",https://doi.org/10.1016/j.celrep.2019.01.032.
+,catalytic,H3/H4 histone deacetylation,SIR2a,SpdCas9,Direct fusion (С),Plasmodium,"Xiao B, Yin S, Hu Y, et al. Epigenetic editing by CRISPR/dCas9 in Plasmodium falciparum. (2019)",https://doi.org/10.1073/pnas.1813542116.
+,catalytic,H2AK119 ubiquitination,scFv-RING1B,SpdCas9,scFv-RING1B-GCN4 (SunTag),Animal,"Policarpi, C., Munafò, M., Tsagkris, S. et al. Systematic epigenome editing captures the context-dependent instructive function of chromatin modifications. (2024)","https://doi.org/10.1038/s41588-024-01706-w.
+"
+,catalytic,histone metilation Н3К9 (repression),SUV,SpdCas9,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, Chonghua Ren, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic (no effect in study),histone metilation Н3К9 (repression),SUV,AsdCas12a,"Direct fusion (С), Direct fusion (N), Direct fusion (N+С)",Human,"Henriette O’Geen, Chonghua Ren, et al. dCas9-based epigenome editing suggests acquisition of histone methylation is not sufficient for target gene repression. (2017)",https://doi.org/10.1093/nar/gkx578
+,catalytic,clips off H3NT ,MMP-9 ,SpdCas9,Direct fusion (С),Human,"Shin Y, Kim S, Liang G, An W. MMP-9-dependent proteolysis of the histone H3 N-terminal tail: a critical epigenetic step in driving oncogenic transcription and colon tumorigenesis. (2024)",https://doi.org/10.1002/1878-0261.13652
+,noncatalytic,repression,SALL1-SDS3,SpdCas9,Direct fusion (С),Human,"Mills C, Riching A, Keller A, et al. A Novel CRISPR Interference Effector Enabling Functional Gene Characterization with Synthetic Guide RNAs. (2022)",https://pmc.ncbi.nlm.nih.gov/articles/PMC9805873/
+,noncatalytic,repression,SALL1-SDS3,ErdCas12a (dMAD7),Direct fusion (С),Human,"Mills C, Riching A, Keller A, et al. A Novel CRISPR Interference Effector Enabling Functional Gene Characterization with Synthetic Guide RNAs. (2022)",https://pmc.ncbi.nlm.nih.gov/articles/PMC9805873/
+,noncatalytic,repression,SALL1-SDS3,dCas12j,Direct fusion (С),Human,"Mills C, Riching A, Keller A, et al. A Novel CRISPR Interference Effector Enabling Functional Gene Characterization with Synthetic Guide RNAs. (2022)",https://pmc.ncbi.nlm.nih.gov/articles/PMC9805873/
+CRISPR-DREAM,noncatalytic,activation,MCP-MRTFa-STAT1-eNRF2,SpdCas9,gRNA-aptamer binding (MS2-based),Human,"Mahata, B., Cabrera, A., Brenner, D.A. et al. Compact engineered human mechanosensitive transactivation modules enable potent and versatile synthetic transcriptional control. (2023)",https://doi.org/10.1038/s41592-023-02036-1
+CRISPRcharm,catalytic,Repression (DNA cytosine methylation) ,H3tail-DNMT3l-dCas9,SpdCas9,Direct fusion (С),"Human, Animal","Edwin N. Neumann et al. ,Brainwide silencing of prion protein by AAV-mediated delivery of an engineered compact epigenetic editor. (2024)",https://doi.org/10.1126/science.ado7082
+Chem,noncatalytic,repression (BRD4 inhibition),JQ1-PFB-Phe(F)-Cys(C)-Pro(P)-Phe(F),SpdCas9,Direct fusion (С),Human,"Mukaddes Altinbay, Jianhui Wang, et al. Chem-CRISPR/dCas9FCPF: a platform for chemically induced epigenome editing. (2024)",https://doi.org/10.1093/nar/gkae798
+,catalytic,"Histone acetylation
+H3K56 and H3K122",TEN,SpdCas9,Direct fusion (С),Plant,"Sara Selma, et al. Crisp and quiet: A novel programmable transcriptional repressor in plants. (2024)",https://doi.org/10.1093/plphys/kiae211
+,noncatalytic,activation,EDLL,SpdCas9,Direct fusion (С),Plant,"Marta Vazquez-Vilar, et al. A modular toolbox for gRNA–Cas9 genome engineering in plants based on the GoldenBraid standard. (2016)",https://doi.org/10.1186/s13007-016-0101-2
+,noncatalytic,repression,SRDX,SpdCas9,Direct fusion (С),Plant,"Marta Vazquez-Vilar, et al. A modular toolbox for gRNA–Cas9 genome engineering in plants based on the GoldenBraid standard. (2016)",https://doi.org/10.1186/s13007-016-0101-2
+,noncatalytic,repression,3X(SRDX),SpdCas9,Direct fusion (С),Plant,"Levi G. Lowder, et al. A CRISPR/Cas9 Toolbox for Multiplexed Plant Genome Editing and Transcriptional Regulation (2015)",https://doi.org/10.1104/pp.15.00636
+,noncatalytic,repression,BRD,SpdCas9,Direct fusion (С),Plant,"Marta Vazquez-Vilar, et al. A modular toolbox for gRNA–Cas9 genome engineering in plants based on the GoldenBraid standard. (2016)",https://doi.org/10.1186/s13007-016-0101-2
+,noncatalytic,,TAL,SpdCas9,Direct fusion (С),Plant,"Agnieszka Piatek, et al. RNA-guided transcriptional regulation in planta via synthetic dCas9-based transcription factors. (2014)",https://doi.org/10.1111/pbi.12284
+TV,noncatalytic,activation,6TAL–VP128,SpdCas9,Direct fusion (С),Plant,"Zhenxiang Li, et al. A potent Cas9-derived gene activator for plant and mammalian cells. (2017)",https://doi.org/10.1038/s41477-017-0046-0
+,noncatalytic,activation,4EE–VP128,SpdCas9,Direct fusion (С),Plant,"Zhenxiang Li, et al. A potent Cas9-derived gene activator for plant and mammalian cells. (2017)",https://doi.org/10.1038/s41477-017-0046-0
+,noncatalytic,activation,MCP-4EE-VP128,SpdCas9,gRNA-aptamer binding (MS2-based),Plant,"Zhenxiang Li, et al. A potent Cas9-derived gene activator for plant and mammalian cells. (2017)",https://doi.org/10.1038/s41477-017-0046-0
+,noncatalytic,activation,MCP-TV,SpdCas9,gRNA-aptamer binding (MS2-based),Plant,"Zhenxiang Li, et al. A potent Cas9-derived gene activator for plant and mammalian cells. (2017)",https://doi.org/10.1038/s41477-017-0046-0
+,catalytic,"Histone acetylation (activation)
+H3K27",P300,SpdCas9,Direct fusion (С),Plant,"Joaquin Felipe Roca Paixão, et al. Improved drought stress tolerance in Arabidopsis by CRISPR/dCas9 fusion with a Histone AcetylTransferase. (2019)",https://doi.org/10.1038/s41598-019-44571-y
+CRISPRAct2.0,noncatalytic,activation,"VP64 +
+MCP-VP64",SpdCas9,Direct fusion VP64 (С) + gRNA-aptamer binding (MS2-based),Plant,"Levi G. Lowder, et al. Robust Transcriptional Activation in Plants Using Multiplexed CRISPR-Act2.0 and mTALE-Act Systems. (2018)",https://doi.org/10.1016/j.molp.2017.11.010
+,noncatalytic,activation,"VP64 +
+MCP-EDLL",SpdCas9,Direct fusion VP64 (С) + gRNA-aptamer binding (MS2-based),Plant,"Levi G. Lowder, et al. Robust Transcriptional Activation in Plants Using Multiplexed CRISPR-Act2.0 and mTALE-Act Systems. (2018)",https://doi.org/10.1016/j.molp.2017.11.010
+,noncatalytic,activation,"VP64 + 
+MCP-VPR",SpdCas9,Direct fusion VP64 (С) + gRNA-aptamer binding (MS2-based),Plant,"Sara Selma, et al. Strong gene activation in plants with genome-wide specificity using a new orthogonal CRISPR/Cas9-based programmable transcriptional activator. (2024)",https://doi.org/10.1111/pbi.13138
+,noncatalytic,activation,MCP-VP64,SpdCas9,gRNA-aptamer binding (MS2-based),Plant,"Joanne E. Lee, et al. CRISPR-based tools for targeted transcriptional and epigenetic regulation in plants. (2019)",https://doi.org/10.1371/journal.pone.0222778
+dCasEV2.1,noncatalytic,activation,"EDLL+
+MCP-VPR",SpdCas9,Direct fusion EDLL (С) + gRNA-aptamer binding (MS2-based),Plant,"Sara Selma, et al. Strong gene activation in plants with genome-wide specificity using a new orthogonal CRISPR/Cas9-based programmable transcriptional activator. (2019)",https://doi.org/10.1111/pbi.13138
+,catalytic,"Histone acetylation (activation)
+H3K27",MCP-P300,SpdCas9,gRNA-aptamer binding (MS2-based),Plant,"Joanne E. Lee, et al. CRISPR-based tools for targeted transcriptional and epigenetic regulation in plants. (2019)",https://doi.org/10.1371/journal.pone.0222778
+,catalytic,Histone metilation H3K9,MCP-KYP,SpdCas9,gRNA-aptamer binding (MS2-based),Plant,"Joanne E. Lee, et al. CRISPR-based tools for targeted transcriptional and epigenetic regulation in plants. (2019)",https://doi.org/10.1371/journal.pone.0222778
+,noncatalytic,repression,MCP-SRDX,SpdCas9,gRNA-aptamer binding (MS2-based),Plant,"Joanne E. Lee, et al. CRISPR-based tools for targeted transcriptional and epigenetic regulation in plants. (2019)",https://doi.org/10.1371/journal.pone.0222778
+,catalytic,Histone metilation H3K9,MCP-G9a,SpdCas9,gRNA-aptamer binding (MS2-based),Plant,"Joanne E. Lee, et al. CRISPR-based tools for targeted transcriptional and epigenetic regulation in plants. (2019)",https://doi.org/10.1371/journal.pone.0222778
+,catalytic,"DNA
+demetilation",ScFV-TET1,SpdCas9,SunTag,Plant,"Javier Gallego-Bartolomé, et al. Targeted DNA demethylation of the Arabidopsis genome using the human TET1 catalytic domain. (2018)",https://doi.org/10.1073/pnas.1716945115
+,noncatalytic,activation,ScFV-VP64,SpdCas9,SunTag,Plant,"Ashot Papikian, et al. Site-specific manipulation of Arabidopsis loci using CRISPR-Cas9 SunTag systems. (2019)",https://doi.org/10.1038/s41467-019-08736-7
+,catalytic,"DNA
+demetilation",ScFV-NtDRM,SpdCas9,SunTag,Plant,"Ashot Papikian, et al. Site-specific manipulation of Arabidopsis loci using CRISPR-Cas9 SunTag systems. (2019)",https://doi.org/10.1038/s41467-019-08736-7
+,noncatalytic,repression,SRDX,"
+LbdCas12a ",Direct fusion (С),Plant,"Xu Tang, et al. A CRISPR–Cpf1 system for efficient genome editing and transcriptional repression in plants. (2017)",https://doi.org/10.1038/nplants.2017.18
+,noncatalytic,repression,SRDX,"
+AsdCas12a",Direct fusion (С),Plant,"Xu Tang, et al. A CRISPR–Cpf1 system for efficient genome editing and transcriptional repression in plants. (2017)",https://doi.org/10.1038/nplants.2017.18
+TV,noncatalytic,activation,6TAL–VP128,FndCas12a,Direct fusion (С),Plant,"Meiling Ming, et al. CRISPR–Cas12b enables efficient plant genome engineering. (2020)",https://doi.org/10.1038/s41477-020-0614-6
+TV,noncatalytic,activation,6TAL–VP128,AadCas12b,Direct fusion (С),Plant,"Meiling Ming, et al. CRISPR–Cas12b enables efficient plant genome engineering. (2020)",https://doi.org/10.1038/s41477-020-0614-6
+,noncatalytic,activation,"TV + 
+MCP-TV",AadCas12b,Direct fusion TV (С) + gRNA-aptamer binding (MS2-based),Plant,"Meiling Ming, et al. CRISPR–Cas12b enables efficient plant genome engineering. (2020)",https://doi.org/10.1038/s41477-020-0614-6
+,noncatalytic,activation,"TV + 
+MCP-VPR",AadCas12b,Direct fusion TV (С) + gRNA-aptamer binding (MS2-based),Plant,"Meiling Ming, et al. CRISPR–Cas12b enables efficient plant genome engineering. (2020)",https://doi.org/10.1038/s41477-020-0614-6
+CRISPR-Act3.0 gR2.0,noncatalytic,activation,"Vp64+
+MCP- 4xGCN4-2TAD",SpdCas9,CRISPR-Act3.0,Plant,"Changtian Pan, et al. CRISPR–Act3.0 for highly efficient multiplexed gene activation in plants. (2021)",https://doi.org/10.1038/s41477-021-00953-7
+CRISPR-Act3.0 gR2.0,noncatalytic,activation,"Vp64+
+MCP- 10xGCN4-2TAD",SpdCas9,CRISPR-Act3.0,Plant,"Changtian Pan, et al. CRISPR–Act3.0 for highly efficient multiplexed gene activation in plants. (2021)",https://doi.org/10.1038/s41477-021-00953-7
+CRISPR-Act3.0 gR2.0,noncatalytic,activation,"Vp64+
+MCP- 10xGCN4-2TAD","dzCas9-Act3.0, 
+dzCas9-NG-Act3.0 
+dSpRy-Act3.0",Direct fusion (C) + scFv-GCN4 binding,Plant,"Changtian Pan, et al. CRISPR–Act3.0 for highly efficient multiplexed gene activation in plants. (2021)",https://doi.org/10.1038/s41477-021-00953-7
