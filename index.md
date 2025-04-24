@@ -1,5 +1,5 @@
 # Supplementary data
-## "Review Epigenome Engineering Using dCas-systems for Biomedical Applications and Biotechnology: Current Achievements, Opportunities and Challenges"
+## "Epigenome Engineering Using dCas-systems for Biomedical Applications and Biotechnology: Current Achievements, Opportunities and Challenges"
 
 
 ### GitHub repository
