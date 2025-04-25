@@ -77,7 +77,7 @@ $(function() {
         download: true,
         complete: function(d) {
             $(document).ready(function () {
-                var table = $('#main').DataTable({
+		$('#main').DataTable({
                     data: d.data.slice(1),
                     dataSrc: "",
                     "paging": false,
