@@ -110,7 +110,7 @@ $(function() {
                         {
                             targets: 7, // Столбец References
                             render: function(data, type, row, meta) {
-                                if (type === 'display') {
+                                if (type === 'display' && data) {
                                     var references = data.split(';');
                                     var dois = row[8].split(';');
                                     var html = '';
