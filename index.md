@@ -6,4 +6,4 @@
 [https://github.com/intbio/Kovalev_et_al_2025](https://github.com/intbio/Kovalev_et_al_2025)
 
 ### Interactive materials
-- [Interactive table of dCas-based molecular epigenetic tools](paper_tabel_1)
+- [Interactive table of dCas-based molecular epigenetic tools](paper_table_1)
