@@ -1,116 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>Corrected Table</title>
-    <link rel="stylesheet" type="text/css" href="js/datatables.min.css"/>
-    <script src="js/datatables.min.js"></script>
-    <script src="js/papaparse.min.js"></script>
-
-    <style>
-    .tooltip {
-        text-decoration:none;
-        position:relative;
-        padding: 1em;
-        margin: -1em;
-    }
-    .tooltip span {
-        display:none;
-        position:absolute;
-        top:0;
-        left:0;
-        z-index:1000;
-        width:auto;
-        max-width:450px;
-        max-height:450px;
-        min-height:128px;
-        border:1px solid black;
-        margin-top:12px;
-        margin-left:100px;
-        overflow:hidden;
-        padding:8px;
-        background: white;
-        opacity: 0.9;
-    }
-    .tooltip span::before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 0;
-        padding-bottom: 100%;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    </style>
-</head>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="js/datatables.min.css"/> 
+    
+	
+  </head>
 <body>
+ 
+<script src="js/datatables.min.js"></script>
+<script src="js/papaparse.min.js"></script>
 
-<h3>List of dCas-based molecular epigenetic tools.</h3>
+<H3>List of dCas-based molecular epigenetic tools.</H3>
 <a href='https://intbio.org/Kovalev_et_al_2025'>Back</a>
-
 <table id="main" class="display" style="width:100%">
-    <thead></thead>
-</table>
+        <thead>
+        </thead>
+    </table>
+
+<style>
+.tooltip {
+  text-decoration:none;
+  position:relative;
+  padding: 1em;
+  margin: -1em;
+}
+ 
+.tooltip span {
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:black;
+  background:white; 
+}
+ 
+.tooltip span img {
+  float:left;
+  margin:0px 8px 8px 0;
+}
+ 
+.tooltip:hover span {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1000;
+  width:auto;
+  max-width:450px;
+  max-height:450px;
+  min-height:128px;
+  border:1px solid black;
+  margin-top:12px;
+  margin-left:100px;
+  overflow:hidden;
+  padding:8px;
+  opacity: 0.9;  
+}
+</style>
+
 
 <script>
 $(function() {
-    Papa.parse("ST1.csv", {
+    Papa.parse("data/paper_table_1.csv", {
         download: true,
         complete: function(d) {
             $(document).ready(function () {
                 $('#main').DataTable({
                     data: d.data.slice(1),
                     dataSrc: "",
-                    paging: false,
-                    searching: true,
-                    order: [],
+                    "paging": false,
+                    "searching": true,
+                    order: [], // Нет начальной сортировки
                     columns: [
-                        { title: "Name" },
-                        { title: "Effector type" },
-                        { title: "Action" },
-                        { title: "Effector construct" },
-                        { title: "dCas protein" },
-                        { title: "Architecture" },
-                        { title: "Organism" },
-                        { title: "References" },
-                        { title: "DOI link" },
-                        { title: "Graph. Abstract link" }
+                        { title: "Name", orderable: true },
+                        { title: "Effector type", orderable: true },
+                        { title: "Action", orderable: true },
+                        { title: "Effector construct", orderable: true },
+                        { title: "dCas protein", orderable: true },
+                        { title: "Architecture", orderable: true },
+                        { title: "Organism", orderable: true },
+                        { title: "References", orderable: true },
+                        { title: "DOI link", orderable: false },
+                        { title: "Graph.Abstract link", orderable: false }
                     ],
-                    rowReorder: false,
-                    columnDefs: [
-                        { targets: "_all", defaultContent: "" },
+                    "rowReorder": false,
+                    "columnDefs": [
+                        { "targets": "_all", "defaultContent": "" },
+                        
+                        // Форматирование для столбцов с переносами строк (0-6)
                         {
                             targets: [0,1,2,3,4,5,6],
-                            render: function(data, type, row) {
+                            render: function(data, type, row, meta) {
                                 if (type === 'display' && data) {
                                     return data.replace(/,/g, ',<br>');
                                 }
                                 return data;
                             }
                         },
+                        
+                        // Специальный рендер для столбца References (7)
                         {
                             targets: 7,
-                            render: function(data, type, row) {
+                            render: function(data, type, row, meta) {
                                 if (type === 'display' && data) {
                                     var references = data.split(';');
-                                    var dois = (row[8] || '').split(';');
-                                    var images = (row[9] || '').split(';');
+                                    var dois = (row[8] || '').split(';'); // DOI link (столбец 8)
+                                    var images = (row[9] || '').split(';'); // Graph.Abstract link (столбец 9)
                                     var html = '';
+                                    
                                     for (var i = 0; i < references.length; i++) {
                                         if (i > 0) html += '<br>';
+                                        
                                         var ref = references[i].trim();
                                         var doi = dois[i] ? dois[i].trim() : '';
                                         var img = images[i] ? images[i].trim() : '';
-
+                                        
+                                        // Если нет DOI - просто текст
                                         if (!doi) {
                                             html += ref;
-                                        } else if (!img) {
+                                        }
+                                        // Если есть DOI, но нет изображения - обычная ссылка
+                                        else if (!img) {
                                             html += `<a href="${doi}" target="_blank">${ref}</a>`;
-                                        } else {
+                                        }
+                                        // Если есть и DOI и изображение - ссылка с tooltip
+                                        else {
                                             html += `<a class="tooltip" href="${doi}" target="_blank">${ref}
-                                            <span style="background-image:url('${img}'); background-size:contain; background-repeat:no-repeat; background-position:center;"></span></a>`;
+                                                     <span><img src="${img}" style="max-height:450px;max-width:450px;"></span></a>`;
                                         }
                                     }
                                     return html;
@@ -118,8 +137,10 @@ $(function() {
                                 return data;
                             }
                         },
+                        
+                        // Скрытые столбцы (DOI link и Graph.Abstract link)
                         {
-                            targets: [8, 9],
+                            targets: [8,9],
                             visible: false,
                             searchable: true
                         }
@@ -133,4 +154,3 @@ $(function() {
 
 </body>
 </html>
-
