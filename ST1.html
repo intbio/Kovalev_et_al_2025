@@ -109,20 +109,6 @@ $(function() {
                                 return data;
                             }
                         },
-                        {
-                            targets: 7, // Столбец Name
-                            render: function (data, type, row, meta) {
-                                if (type === 'display' && row[9]) { // Проверяем наличие Graph.Abstract link
-                                    return "<a class='tooltip' href='" + row[8] + "' target='_blank'>" + data +
-                                           "<span><img src='" + row[9] + 
-                                           "' style='max-height: 450px; max-width: 450px;'></span></a>";
-                                }
-                                if (type === 'display' && row[8]) { // Если нет изображения, но есть DOI
-                                    return "<a href='" + row[8] + "' target='_blank'>" + data + "</a>";
-                                }
-                                return data;
-                            }
-                        },
                         // Специальный рендер для столбца References (7)
                         {
                             targets: 7,
