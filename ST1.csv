@@ -6,7 +6,7 @@ Name,Effector type,Action,Effector construct,dCas protein,Architecture,Organism,
 3. Luke A Gilbert, et al. CRISPR-mediated modular RNA-guided regulation of transcription in eukaryotes (2013); 
 4. Fahim Farzadfard, et al. Tunable and multifunctional eukaryotic transcription factors based on CRISPR/Cas (2013);
 5. Morgan L Maeder, et al. CRISPR RNA–guided activation of endogenous human genes (2013); 
-6. Bernd Zetsche, et al. A split-Cas9 architecture for inducible genome editing and transcription modulation (2015) 
+6. Bernd Zetsche, et al. A split-Cas9 architecture for inducible genome editing and transcription modulation (2015);
 7. Marta Vazquez-Vilar, et al. A modular toolbox for gRNA–Cas9 genome engineering in plants based on the GoldenBraid standard. (2016)                                                                                                                                        ","https://doi.org/10.1104/pp.15.00636;
 https://doi.org/10.1080/10717544.2020.1850917;
 https://doi.org/10.1016/j.cell.2013.06.044;
@@ -35,7 +35,9 @@ https://pubs.acs.org/cms/10.1021/acssynbio.1c00006/asset/images/medium/sb1c00006
 ,"mixed 
 (catalytic \ non-catalytic)",activation,VP64-p300 + VP64,SpdCas9,"Direct fusion VP64 (N), direct fusion p300 (C) + peptide-scFV binding",Human,"Kohei Omachi, Comparative analysis of dCas9-VP64 variants and multiplexed guide RNAs mediating CRISPR activation. (2022)",https://doi.org/10.1371/journal.pone.0270008,https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0270008.g001
 ,noncatalytic,activation,VP160,SadCas9,Direct fusion (С),Human,"Cia-Hin Lau, et al. Targeted Transgene Activation in the Brain Tissue by Systemic Delivery of Engineered AAV1 Expressing CRISPRa (2019); 
-Albert W Cheng, et al. Multiplexed activation of endogenous genes by CRISPR-on, an RNA-guided transcriptional activator system (2013)",https://doi.org/10.1038/cr.2013.122,https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fcr.2013.122/MediaObjects/41422_2013_Article_BFcr2013122_Fig1_HTML.jpg?as=webp
+Albert W Cheng, et al. Multiplexed activation of endogenous genes by CRISPR-on, an RNA-guided transcriptional activator system (2013)","https://doi.org/10.1016/j.omtn.2019.04.015;
+https://doi.org/10.1038/cr.2013.122","https://ars.els-cdn.com/content/image/1-s2.0-S2162253119300885-fx1.jpg;
+https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fcr.2013.122/MediaObjects/41422_2013_Article_BFcr2013122_Fig1_HTML.jpg?as=webp"
 ,noncatalytic,activation,VP160,SpdCas9,Direct fusion (С),Human,"Giménez, C., Ielpi, M., Mutto, A. et al. CRISPR-on system for the activation of the endogenous human INS gene. (2016)",https://doi.org/10.1038/gt.2016.28,https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fgt.2016.28/MediaObjects/41434_2016_Article_BFgt201628_Fig1_HTML.jpg?as=webp
 ,noncatalytic,activation,VP192,SpdCas9,Direct fusion (С),Human,"Diego Balboa, et al. Conditionally Stabilized dCas9 Activator for Controlling Gene Expression in Human Cell Reprogramming and Differentiation (2015)",https://doi.org/10.1016/j.stemcr.2015.08.001,https://ars.els-cdn.com/content/image/1-s2.0-S2213671115002234-fx1.jpg
 ,noncatalytic,activation,p65,SpdCas9,Direct fusion (С),Human,"Luke A Gilbert, et al. CRISPR-mediated modular RNA-guided regulation of transcription in eukaryotes (2013)",https://doi.org/10.1016/j.cell.2013.06.044,https://ars.els-cdn.com/content/image/1-s2.0-S009286741300826X-fx1.jpg
@@ -135,13 +137,12 @@ CRISRPoff,"mixed
 ,catalytic,Activation (Histone metilation Н3К4),PRDM9,SpdCas9,Direct fusion (С),Human,"David Cano-Rodriguez, et al. Writing of H3K4Me3 overcomes epigenetic silencing in a sustained but context-dependent manner. (2016)",https://doi.org/10.1038/ncomms12284,https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fncomms12284/MediaObjects/41467_2016_Article_BFncomms12284_Fig1_HTML.jpg
 ,catalytic,"Histone acetylation
 H3K27",p300,SpdCas9,Direct fusion (С),"Human, Plant","1. Isaac B Hilton, et al. Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers. (2015);
-2. Sara Selma. Crisp and quiet: A novel programmable transcriptional repressor in plants. (2024)","https://doi.org/10.1038/nbt.3199;
+2. Sara Selma. Crisp and quiet: A novel programmable transcriptional repressor in plants. (2024)","https://doi.org/10.1038/nbt.3199 ;
 https://doi.org/10.1093/plphys/kiae211","https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnbt.3199/MediaObjects/41587_2015_Article_BFnbt3199_Fig1_HTML.jpg ;
 https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/plphys/195/3/10.1093_plphys_kiae211/1/m_kiae211f1.jpeg?Expires=1747910843&Signature=2G8DP5~UtSnKKd-ITYWUSEdvfUUwsmjYDn2lbLj466zRwpW7Y~lqTUDMql-21URSwY~QArPKDimRY7kjNnbnyLPV6Apm1IGusiMAO8EPFb54~rb3rGja86xJjhL~Z9PMdbwKXDfw0CP7Z-EqyJ3jl7nUAIfM0sY~OcVJ0zWmMQ5EjN~hvJG-V5eb1UKZ3k7TOzOe30ZVUVXPfE4sYsuz6zrt5dLPqF~7k34QVgJPNrQGU7PsbNbUiPoNTZ4XlyqUp1NqksYqNfXBZ~pVg0zm0EKntImNgGmxGvIp5FVAkPB1cGIISew6Y4WttVMpDY25wahC9a9WBKMir4~f9R772g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
 "
 ,catalytic,"Histone acetylation
-H3K27",p300,SadCas9,Direct fusion (С),Human,"1. Isaac B Hilton, et al. Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers. (2015); 
-2. Sara Selma, et al. Crisp and quiet: A novel programmable transcriptional repressor in plants. (2024)",https://doi.org/10.1038/nbt.3199,https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnbt.3199/MediaObjects/41587_2015_Article_BFnbt3199_Fig1_HTML.jpg
+H3K27",p300,SadCas9,Direct fusion (С),Human,"1. Isaac B Hilton, et al. Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers. (2015); ",https://doi.org/10.1038/nbt.3199,https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnbt.3199/MediaObjects/41587_2015_Article_BFnbt3199_Fig1_HTML.jpg
 ,catalytic,"Histone acetylation
 H3K27",p300 I1417N,SpdCas9,Direct fusion (С),Human,"Goell J, Li J, Mahata B, et al. Tailoring a CRISPR/Cas-based Epigenome Editor for Programmable Chromatin Acylation and Decreased Cytotoxicity. (2024)",https://doi.org/10.1101/2024.09.22.611000,https://www.biorxiv.org/content/biorxiv/early/2024/09/22/2024.09.22.611000/F1.medium.gif
 ,catalytic,Histone metilation Н3К79,DOT1L,SpdCas9,Direct fusion (С),Human,"Cano-Rodriguez, D., Gjaltema, R., Jilderda, L. et al. Writing of H3K4Me3 overcomes epigenetic silencing in a sustained but context-dependent manner. (2016)",https://doi.org/10.1038/ncomms12284,https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fncomms12284/MediaObjects/41467_2016_Article_BFncomms12284_Fig1_HTML.jpg
@@ -156,7 +157,7 @@ Ser/Thr
 phosphorylation",MSK1,SpdCas9,Direct fusion (С),Human,"Jing Li, et al. Programmable human histone phosphorylation and gene activation using a CRISPR/Cas9-based chromatin kinase. (2021)",https://doi.org/10.1038/s41467-021-21188-2,https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-021-21188-2/MediaObjects/41467_2021_21188_Fig1_HTML.png
 ,catalytic,Histone lysine acetylation (activation),CPBHAT,SpdCas9,"Direct fusion (С), PUFa-fusion (N,C)",Human,"Albert W Cheng, et al. Casilio: a versatile CRISPR-Cas9-Pumilio hybrid for gene regulation and genomic labeling. (2016)",https://doi.org/10.1038/cr.2016.3,https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fcr.2016.3/MediaObjects/41422_2016_Article_BFcr20163_Fig1_HTML.jpg
 ,catalytic,ARG citrullination,PPAD,SpdCas9,Direct fusion (N),"Human, Animal","Xiaoya Zhang, et al.""A programmable CRISPR/dCas9-based epigenetic editing system enabling loci-targeted histone citrullination and precise transcription regulation"". (2024)",https://doi.org/10.1016/j.jgg.2024.05.010,https://ars.els-cdn.com/content/image/1-s2.0-S1673852724001231-gr1.jpg
-,noncatalytic,repression histone modifications,KRAB,SpdCas9,"Direct fusion (N), Direct fusion (C)","Human, Animal, Plant","1. Luke A. Gilbert, et al. CRISPR-Mediated Modular RNA-Guided Regulation of Transcription in Eukaryotes. (2013)
+,noncatalytic,repression histone modifications,KRAB,SpdCas9,"Direct fusion (N), Direct fusion (C)","Human, Animal, Plant","1. Luke A. Gilbert, et al. CRISPR-Mediated Modular RNA-Guided Regulation of Transcription in Eukaryotes. (2013); 
 2. Alok A, Chauhan H, Rout B, Pandey A, Singh K. CRISPR/dCas9-KRAB mediated transcriptional suppression of NtbHLH47 enhances tolerance to iron stress and modulates iron content in tobacco. (2025)","https://doi.org/10.1016%2Fj.cell.2013.06.044;
 https://doi.org/10.1016/j.plantsci.2025.112449","https://ars.els-cdn.com/content/image/1-s2.0-S009286741300826X-fx1.jpg ;
 https://ars.els-cdn.com/content/image/1-s2.0-S0168945225000676-gr1.jpg "
