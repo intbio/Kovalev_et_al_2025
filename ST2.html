@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>Corrected Table</title>
-    <link rel="stylesheet" type="text/css" href="js/datatables.min.css"/>
-    <script src="js/datatables.min.js"></script>
-    <script src="js/papaparse.min.js"></script>
-
-    <style>
-    .tooltip {
-        text-decoration:none;
-        position:relative;
-        padding: 1em;
-        margin: -1em;
-    }
-    .tooltip span {
-        display:none;
-        position:absolute;
-        top:0;
-        left:0;
-        z-index:1000;
-        width:auto;
-        max-width:450px;
-        max-height:450px;
-        min-height:128px;
-        border:1px solid black;
-        margin-top:12px;
-        margin-left:100px;
-        overflow:hidden;
-        padding:8px;
-        background: white;
-        opacity: 0.9;
-    }
-    .tooltip span::before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 0;
-        padding-bottom: 100%;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    </style>
-</head>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="js/datatables.min.css"/> 
+    
+	
+  </head>
 <body>
+ 
+<script src="js/datatables.min.js"></script>
+<script src="js/papaparse.min.js"></script>
 
-<h3>List of dCas-based molecular epigenetic tools.</h3>
+<H3>List of dCas-based molecular epigenetic tools.</H3>
 <a href='https://intbio.org/Kovalev_et_al_2025'>Back</a>
-
 <table id="main" class="display" style="width:100%">
-    <thead></thead>
-</table>
+        <thead>
+        </thead>
+    </table>
+
+<style>
+.tooltip {
+  text-decoration:none;
+  position:relative;
+  padding: 1em;
+  margin: -1em;
+}
+ 
+.tooltip span {
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:black;
+  background:white; 
+}
+ 
+.tooltip span img {
+  float:left;
+  margin:0px 8px 8px 0;
+}
+ 
+.tooltip:hover span {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1000;
+  width:auto;
+  max-width:450px;
+  max-height:450px;
+  min-height:128px;
+  border:1px solid black;
+  margin-top:12px;
+  margin-left:100px;
+  overflow:hidden;
+  padding:8px;
+  opacity: 0.9;  
+}
+</style>
 
 <script>
 $(function() {
