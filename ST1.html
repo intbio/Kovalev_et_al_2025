@@ -73,7 +73,7 @@
 
 <script>
 $(function() {
-    Papa.parse("data/paper_table_1.csv", {
+    Papa.parse("ST1.csv", {
         download: true,
         complete: function(d) {
             $(document).ready(function () {
@@ -92,7 +92,9 @@ $(function() {
                         { title: "Architecture", orderable: true },
                         { title: "Organism", orderable: true },
                         { title: "References", orderable: true },
-                        { title: "DOI link", orderable: false }
+                        { title: "DOI link", orderable: false },
+                        { title: "Graph. Abstract link", orderable: false }
+
                     ],
                     "rowReorder": false,
                     "columnDefs": [
@@ -108,21 +110,48 @@ $(function() {
                             }
                         },
                         {
-                            targets: 7, // Столбец References
+                            targets: 7, // Столбец Name
+                            render: function (data, type, row, meta) {
+                                if (type === 'display' && row[9]) { // Проверяем наличие Graph.Abstract link
+                                    return "<a class='tooltip' href='" + row[8] + "' target='_blank'>" + data +
+                                           "<span><img src='" + row[9] + 
+                                           "' style='max-height: 450px; max-width: 450px;'></span></a>";
+                                }
+                                if (type === 'display' && row[8]) { // Если нет изображения, но есть DOI
+                                    return "<a href='" + row[8] + "' target='_blank'>" + data + "</a>";
+                                }
+                                return data;
+                            }
+                        },
+                        // Специальный рендер для столбца References (7)
+                        {
+                            targets: 7,
                             render: function(data, type, row, meta) {
                                 if (type === 'display' && data) {
                                     var references = data.split(';');
-                                    var dois = row[8].split(';');
+                                    var dois = (row[8] || '').split(';'); // DOI link (столбец 8)
+                                    var images = (row[9] || '').split(';'); // Graph.Abstract link (столбец 9)
                                     var html = '';
                                     
                                     for (var i = 0; i < references.length; i++) {
                                         if (i > 0) html += '<br>';
-                                        var doi = dois[i] ? dois[i].trim() : '';
                                         
-                                        if (doi) {
-                                            html += `<a href="${doi}" target="_blank">${references[i].trim()}</a>`;
-                                        } else {
-                                            html += `${references[i].trim()}`;
+                                        var ref = references[i].trim();
+                                        var doi = dois[i] ? dois[i].trim() : '';
+                                        var img = images[i] ? images[i].trim() : '';
+                                        
+                                        // Если нет DOI - просто текст
+                                        if (!doi) {
+                                            html += ref;
+                                        }
+                                        // Если есть DOI, но нет изображения - обычная ссылка
+                                        else if (!img) {
+                                            html += `<a href="${doi}" target="_blank">${ref}</a>`;
+                                        }
+                                        // Если есть и DOI и изображение - ссылка с tooltip
+                                        else {
+                                            html += `<a class="tooltip" href="${doi}" target="_blank">${ref}
+                                                     <span><img src="${img}" style="max-height:450px;max-width:450px;"></span></a>`;
                                         }
                                     }
                                     return html;
@@ -131,7 +160,7 @@ $(function() {
                             }
                         },
                         {
-                            targets: [8], // Столбец DOI link
+                            targets: [8, 9], // Столбец DOI link
                             visible: false,
                             searchable: true
                         }
