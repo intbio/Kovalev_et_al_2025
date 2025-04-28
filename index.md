@@ -7,5 +7,5 @@
 
 ### Interactive materials
 - [Supplementary_Table_1_(List of dCas-based molecular epigenetic tools)](ST1)
-- [Supplementary_Table_2_ ()](ST2)
-- [Supplementary_Table_2_ ()](ST3)
+- [Supplementary_Table_2_()](ST2)
+- [Supplementary_Table_3_())](ST3)

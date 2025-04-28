@@ -13,7 +13,7 @@
 <script src="js/datatables.min.js"></script>
 <script src="js/papaparse.min.js"></script>
 
-<H3>List of dCas-based molecular epigenetic tools.</H3>
+<H3></H3>
 <a href='https://intbio.org/Kovalev_et_al_2025'>Back</a>
 <table id="main" class="display" style="width:100%">
         <thead>
@@ -114,11 +114,15 @@ $(function() {
 
                                         if (!doi) {
                                             html += ref;
-                                        } else if (!img) {
+                                        }
+                                        // Если есть DOI, но нет изображения - обычная ссылка
+                                        else if (!img) {
                                             html += `<a href="${doi}" target="_blank">${ref}</a>`;
-                                        } else {
+                                        }
+                                        // Если есть и DOI и изображение - ссылка с tooltip
+                                        else {
                                             html += `<a class="tooltip" href="${doi}" target="_blank">${ref}
-                                            <span style="background-image:url('${img}'); background-size:contain; background-repeat:no-repeat; background-position:center;"></span></a>`;
+                                                     <span><img src="${img}" style="max-height:450px;max-width:450px;"></span></a>`;
                                         }
                                     }
                                     return html;
