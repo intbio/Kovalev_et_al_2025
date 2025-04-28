@@ -6,4 +6,4 @@
 [https://github.com/intbio/Kovalev_et_al_2025](https://github.com/intbio/Kovalev_et_al_2025)
 
 ### Interactive materials
-- [paper_table_1](paper_table_1)
+- [paper_table_1](ST1)
