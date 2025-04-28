@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Corrected Table</title>
+    <link rel="stylesheet" type="text/css" href="js/datatables.min.css"/>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/papaparse.min.js"></script>
+
+    <style>
+    .tooltip {
+        text-decoration:none;
+        position:relative;
+        padding: 1em;
+        margin: -1em;
+    }
+    .tooltip span {
+        display:none;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:1000;
+        width:auto;
+        max-width:450px;
+        max-height:450px;
+        min-height:128px;
+        border:1px solid black;
+        margin-top:12px;
+        margin-left:100px;
+        overflow:hidden;
+        padding:8px;
+        background: white;
+        opacity: 0.9;
+    }
+    .tooltip span::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    </style>
+</head>
+
+<body>
+
+<h3>List of dCas-based molecular epigenetic tools.</h3>
+<a href='https://intbio.org/Kovalev_et_al_2025'>Back</a>
+
+<table id="main" class="display" style="width:100%">
+    <thead></thead>
+</table>
+
+<script>
+$(function() {
+    Papa.parse("ST1.csv", {
+        download: true,
+        complete: function(d) {
+            $(document).ready(function () {
+                $('#main').DataTable({
+                    data: d.data.slice(1),
+                    dataSrc: "",
+                    paging: false,
+                    searching: true,
+                    order: [],
+                    columns: [
+                        { title: "Review section" },
+                        { title: "Disease" },
+                        { title: "Target gene" },
+                        { title: "Action" },
+                        { title: "Effector construct" },
+                        { title: "Nucleic acids binding protein" },
+                        { title: "Type of delivery " },
+                        { title: "Organism" },
+                        { title: "References" },
+                        { title: "DOI link" },
+                        { title: "Graph. abstract link" }
+                    ],
+                    rowReorder: false,
+                    columnDefs: [
+                        { targets: "_all", defaultContent: "" },
+                        {
+                            targets: [0,1,2,3,4,5,6,7],
+                            render: function(data, type, row) {
+                                if (type === 'display' && data) {
+                                    return data.replace(/,/g, ',<br>');
+                                }
+                                return data;
+                            }
+                        },
+                        {
+                            targets: 8,
+                            render: function(data, type, row) {
+                                if (type === 'display' && data) {
+                                    var references = data.split(';');
+                                    var dois = (row[9] || '').split(';');
+                                    var images = (row[10] || '').split(';');
+                                    var html = '';
+                                    for (var i = 0; i < references.length; i++) {
+                                        if (i > 0) html += '<br>';
+                                        var ref = references[i].trim();
+                                        var doi = dois[i] ? dois[i].trim() : '';
+                                        var img = images[i] ? images[i].trim() : '';
+
+                                        if (!doi) {
+                                            html += ref;
+                                        } else if (!img) {
+                                            html += `<a href="${doi}" target="_blank">${ref}</a>`;
+                                        } else {
+                                            html += `<a class="tooltip" href="${doi}" target="_blank">${ref}
+                                            <span style="background-image:url('${img}'); background-size:contain; background-repeat:no-repeat; background-position:center;"></span></a>`;
+                                        }
+                                    }
+                                    return html;
+                                }
+                                return data;
+                            }
+                        },
+                        {
+                            targets: [9, 10],
+                            visible: false,
+                            searchable: true
+                        }
+                    ]
+                });
+            });
+        }
+    });
+});
+</script>
+
+</body>
+</html>
+
