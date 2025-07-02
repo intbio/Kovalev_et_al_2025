@@ -9,4 +9,4 @@
 - [Supplementary_Table_1_(List of dCas-based molecular epigenetic tools)](ST1)
 - [Supplementary_Table_2_(List of studies with application of dCas-based tools for biomedical problems)](ST2)
 - [Supplementary_Table_3_(Engineering industrial microorganisms with altered metabolic pathways using CRISPR-dCas Systems)](ST3)
-- [Supplementary_Table_4 (Comparison of Base Editors (ABE/CBE), Prime Editors, Cas9, and dCas9 Epigenetic Editors)](ST4)
+- [Supplementary_Table_4 (A comparison of dCas-based epigenetic tools with genome-editing technologies)](ST4)
